@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            border-bottom: darkgray solid 1px;
+        }
+
+        .nav_items {
+            width: 80%;
+            background-color: #eed8d8; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav_items ul {
+            display: flex;
+            list-style-type: none;
+            /* gap: 20px; */
+        }
+        .nav_items li {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .nav_items a{
+            text-decoration: none;
+            color: #000;
+            text-transform: uppercase;/* capitalize */
+        }
+        .nav_items a:hover{
+            color: #ff0000;
+            text-decoration: underline;
+        }
+        .nav_items img{
+            border-radius: 50%;
+        }
+
+        /* git add. */
+    </style>
+</head>
+
+<body>
+    <!-- smeantic tags: header, nav, main, footer, aside, article, section -->
+
+    <nav>
+        <div class="nav_items">
+            <img src="images/comp_logo.jpg" alt="Company logo" width="100px" height="100px">
+            <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+</body>
+
+</html>

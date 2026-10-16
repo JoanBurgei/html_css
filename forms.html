@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Google Sans", sans-serif;
+            background: white;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        form {
+            width: 35%;
+            background: gray;
+            border: 1px solid #000;
+            padding: 12px;
+            color: #4d1d01;
+            margin: auto;
+        }
+
+        .full_width {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .lbl-full {
+            display: block;
+            /*stretch the whole width*/
+        }
+
+        .input-full-w {
+            width: 100%;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-bottom: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- form is doc that want to capture something, by filling in, checking box -->
+    <!-- form input: text,password,date phone,gender(radio button),email, select(drop down)-->
+
+    <form action="">
+        <label class="lbl-full" for="full_name">Full Name</label>
+        <input class="input-full-w" type="text" name="full_name" id="full_name" placeholder="John Doe" required>
+        <br>
+        <label class="lbl-full" for="email">Email</label>
+        <input class="input-full-w" type="email" id="email" name="email" placeholder="john.doe@example.com">
+        <br>
+        <label class="lbl-full" for="password">Password</label>
+        <input class="input-full-w" type="password" name="password" id="password" placeholder="********" required>
+        <br>
+        <label class="lbl-full" for="weight">Weight</label>
+        <input class="input-full-w" type="number" min="30" max="250" step="0.01" required id="weight" name="weight"
+            placeholder="Weight in Kgs">
+        <br>
+        <label class="lbl-full" for="dob">Date of Birth</label>
+        <input class="input-full-w" type="date" name="dob" id="dob">
+        <br>
+        <label class="lbl-full" for="phone">Phone</label>
+        <input class="input-full-w" type="tel" name="phone" id="phone" placeholder="+254....">
+
+        <!-- <label for="gender">Gender</label> -->
+
+        <br>
+        <p>Select your Gender</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <p>Select favourite sport(s)</p>
+        <input type="checkbox" name="tenis" id="tenis" value="tenis">
+        <label for="tenis">Tenis</label>
+        <br>
+        <input type="checkbox" name="rugby" id="rugby" value="rugby">
+        <label for="rugby">Rugby</label>
+        <br>
+        <input type="checkbox" name="soccer" id="soccer" value="soccer">
+        <label for="soccer">Soccer</label>
+        <br>
+        <input type="checkbox" name="volleyball" id="volleyball" value="volleyball">
+        <label for="volleyball">Volleyball</label>
+        <br>
+        <br>
+        <label class="lbl-full" for="county">County</label>
+        <select class="input-full-w" name="county" id="county" required>
+            <option value="1">Mombasa</option>
+            <option value="2">Nairobi</option>
+            <option value="3">Nyeri</option>
+            <option value="4">Kisumu</option>
+            <option value="5">Kisii</option>
+        </select>
+        <!-- check slider input -->
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
