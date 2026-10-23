@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+:root {
+    --brand-green: #159957;
+    --brand-dark: #1f2d3d;
+    --soft-bg: #f4f8f7;
+}
+
+body {
+    color: var(--brand-dark);
+    font-family: "Google Sans", sans-serif;
+}
+.brand{
+    color: var(--brand-green);
+    font-size: 1.4rem;
+}
+#dark-title{
+    color: var(--brand-dark);
+}
+.brand:hover{
+color: #064324;
+}
+
+.nav-link{
+color: #536275;
+}
+.nav-link:hover, .nav-link.active{
+    color:var(--brand-green) !important;
+}
+.btn-success{
+    background-color: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+    border-radius: 20;
+}
+.btn-success:hover{
+    background-color: #05361a !important;
+}
+.hero{
+    padding: 3;
+    background: linear-gradient(120deg,#f7faf9, #ededed);
+}
+.top-title{
+
+}
+.hero h1{
+    line-height: 1.2;
+}
+.section-heading{
+    margin-bottom: 0.4 rem;
+}
+.card{
+    border-color: #e5e9ec;
+     transition: transform 0.2s ease, box-shadow 0.2 ease;/*all 0.2 ease */
+}
+/* https: //cssgenerator.org/box-shadow-css-generator.html  -- this is show generator link */
+.card:hover{
+    transform: translate(-4px);
+    box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.about-section{
+background-color: var(--soft-bg);
+}
+.about-section h1{
+    color: var(--brand-green);
+    font-size: 2.5rem;
+}
+.about-section p{
+    max-width: 600px;
+    margin: auto;
+}
+.footer{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    background: var(--brand-dark);
+}
