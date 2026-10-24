@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
 :root {
     --brand-green: #159957;
     --brand-dark: #1f2d3d;
@@ -9,70 +10,89 @@ body {
     color: var(--brand-dark);
     font-family: "Google Sans", sans-serif;
 }
-.brand{
+
+.brand {
     color: var(--brand-green);
     font-size: 1.4rem;
 }
-#dark-title{
+
+#dark-title {
     color: var(--brand-dark);
 }
-.brand:hover{
-color: #064324;
+
+.brand:hover {
+    color: #064324;
 }
 
-.nav-link{
-color: #536275;
+.nav-link {
+    color: #536275;
 }
-.nav-link:hover, .nav-link.active{
-    color:var(--brand-green) !important;
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--brand-green) !important;
 }
-.btn-success{
+
+.btn-success {
     background-color: var(--brand-green) !important;
     border-color: var(--brand-green) !important;
     border-radius: 20;
 }
-.btn-success:hover{
+
+.btn-success:hover {
     background-color: #05361a !important;
 }
-.hero{
-    padding: 3;
-    background: linear-gradient(120deg,#f7faf9, #ededed);
-}
-.top-title{
 
+.hero {
+    padding: 3;
+    background: linear-gradient(120deg, #f7faf9, #ededed);
 }
-.hero h1{
+
+.top-title {}
+
+.hero h1 {
     line-height: 1.2;
 }
-.section-heading{
+
+.section-heading {
     margin-bottom: 0.4 rem;
 }
-.card{
+
+.card {
     border-color: #e5e9ec;
-     transition: transform 0.2s ease, box-shadow 0.2 ease;/*all 0.2 ease */
+    transition: transform 0.2s ease, box-shadow 0.2 ease;
+    /*all 0.2 ease */
 }
+
 /* https: //cssgenerator.org/box-shadow-css-generator.html  -- this is show generator link */
-.card:hover{
+.card:hover {
     transform: translate(-4px);
     box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -6px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.about-section{
-background-color: var(--soft-bg);
+
+.about-section {
+    background-color: var(--soft-bg);
 }
-.about-section h1{
+
+.about-section h1 {
     color: var(--brand-green);
     font-size: 2.5rem;
 }
-.about-section p{
+
+.about-section p {
     max-width: 600px;
     margin: auto;
 }
-.footer{
+
+.footer {
     color: white;
     text-decoration: none;
+    background-color: #27394e;
 }
-.copyright{
+
+.copyright {
     background: var(--brand-dark);
+    color: white;
 }
