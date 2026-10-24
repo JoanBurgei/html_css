@@ -14,9 +14,9 @@ skills and understand how to create and style web pages.
 - Creating clean and user-friendly web pages
 
 ## Project Goals
-My goal is to strengthen my frontend development skills through hands-on practice and gradually build more interactive and responsive websites.
+My goal is to strengthen my full-stack development skills through hands-on practice and gradually build more interactive and responsive websites.
 
 ## Author
 Joan Jepkemei Burgei
 ---
-*This repository is part of my journey into frontend web development. More projects and improvements will be added as I continue learning.*
+*This repository is part of my journey into full-stack web development. More projects and improvements will be added as I continue learning.*
